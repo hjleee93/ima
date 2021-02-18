@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+iframe {
+    border: 0;
+    width: 270px;
+    height: 480px;
+}
+
+#adContainer {
+    position: fixed;
+    z-index: 1010;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    visibility: hidden;
+}
