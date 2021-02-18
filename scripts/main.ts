@@ -8,7 +8,7 @@ window.onload = async function () {
 
     await ads.Instance.initialize( adContainer,
 
-        'https://googleads.g.doubleclick.net/pagead/ads?client=ca-video-afvtest&ad_type=video&description_url=http%3A%2F%2Fmyurl.com%2Fpage%3Fkey%3Dvalu e%26key2%3Dvalue2'
+        'https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/single_ad_samples&ciu_szs=300x250&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ct%3Dlinear&correlator='
         );
 
     button.addEventListener('click', ()=>{
