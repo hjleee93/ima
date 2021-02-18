@@ -8,7 +8,7 @@ window.onload = async function () {
 
     await ads.Instance.initialize( adContainer,
 
-        'http://googleads.g.doubleclick.net/pagead/ads?client=ca-video-afvtest&ad_type=video'
+        'https://googleads.g.doubleclick.net/pagead/ads?ad_type=video_image&client=ca-video-pub-2579189069606201&videoad_start_delay=0&hl=vi&max_ad_duration=15000&sdmax=30000'
         
         );
 
