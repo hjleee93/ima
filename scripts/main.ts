@@ -6,9 +6,10 @@ window.onload = async function () {
     const input = document.getElementById('input') as HTMLInputElement;
     const url = input.value;
 
-    await ads.Instance.initialize( adContainer,
+    await ads.Instance.initialize( adContainer
+        // ,
 
-        'http://googleads.g.doubleclick.net/pagead/ads?client=ca-video-afvtest&ad_type=video&cust_gender=2'
+        // 'http://googleads.g.doubleclick.net/pagead/ads?client=ca-video-afvtest&ad_type=video&cust_gender=2'
         
         );
 
