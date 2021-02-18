@@ -1,7 +1,6 @@
 import ads from './ads';
 
 window.onload = async function () {
-
     const adContainer = document.getElementById('adContainer') as HTMLDivElement;
     const button = document.getElementById('button') as HTMLButtonElement;
     const input = document.getElementById('input') as HTMLInputElement;
