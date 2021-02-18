@@ -6,7 +6,7 @@ module.exports = {
         main: './scripts/main.ts'
     },
     output: {
-        path: __dirname + '/dist', // 번들 파일 폴더,
+        path: __dirname + '/dist/js', // 번들 파일 폴더,
         publicPath: '/dist/',
         filename: 'game.js' // 번들 파일 이름 규칙
     },
