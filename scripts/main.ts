@@ -8,7 +8,8 @@ window.onload = async function () {
 
     await ads.Instance.initialize( adContainer,
 
-        'http://googleads.g.doubleclick.net/pagead/ads?client=ca-video-afvtest&ad_type=video'
+        'https://eloquent-goldstine-1bddf0.netlify.app/pagead/ads?client=ca-video-afvtest&ad_type=video'
+        
         );
 
     button.addEventListener('click', ()=>{
